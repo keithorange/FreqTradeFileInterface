@@ -1,0 +1,20 @@
+{
+    "pairlists": [
+        {
+            "method": "StaticPairList"
+        }
+    ],
+    "exchange": {
+        "pair_whitelist": [
+            "BTC/USDT",
+            "ETH/USDT",
+            "BNB/USDT",
+            "NEO/USDT",
+            "LTC/USDT",
+            "QTUM/USDT",
+            "ADA/USDT",
+            "DOGE/USDT"
+        ],
+        "pair_blacklist": []
+    }
+}

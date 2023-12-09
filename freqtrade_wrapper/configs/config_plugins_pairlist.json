@@ -1,0 +1,46 @@
+{
+    "pairlists": [
+        {
+            "method": "StaticPairList",
+            "number_assets": 0,
+            "sort_key": "quoteVolume",
+            "min_value": 1000,
+            "refresh_period": 1800
+        },
+        {
+            "method": "AgeFilter",
+            "min_days_listed": 180
+        },
+        {
+            "method": "PriceFilter",
+            "min_price": 0.00001
+        },
+        {
+            "method": "SpreadFilter",
+            "max_spread_ratio": 0.005
+        },
+        {
+            "method": "VolatilityFilter",
+            "lookback_days": 30,
+            "min_volatility": 0.02,
+            "max_volatility": 1,
+            "refresh_period": 86400
+        },
+        {
+            "method": "RangeStabilityFilter",
+            "lookback_days": 30,
+            "min_rate_of_change": 0.01,
+            "max_rate_of_change": 2,
+            "refresh_period": 1440
+        },
+        {
+            "method": "ShuffleFilter",
+            "shuffle_frequency": "candle"
+        },
+        {
+            "method": "OffsetFilter",
+            "offset": 0,
+            "number_assets": 150
+        }
+    ]
+}
